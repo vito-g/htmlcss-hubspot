@@ -6,8 +6,12 @@
 
 
 header {
-  height: 400px;
-  background-color: orange;
+  height: 100vh;
+  /* background-color: orange; */
+  background-image: url("../img/jumbotron.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom -110px right 0;
 }
 
 .container {
