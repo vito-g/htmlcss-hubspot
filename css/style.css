@@ -21,8 +21,34 @@ header {
   margin: auto;
 }
 
+.contact {
+  border-left: 1px solid black;
+  padding-left: 20px;
+  margin-left: 10px;
+}
+
+.clearfix {
+  content:"";
+  display: table;
+  clear: both;
+
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+li {
+  display: inline-block;
+}
+
 .stripe {
   margin: auto;
+  background-color: red;
   height: 55px;
   /* border: 1px solid black; */
 }
@@ -31,7 +57,7 @@ header {
   background-color: rgb(244,249,253);
 }
 
-.lang {
+.line-h{
   line-height: 55px;
 }
 
