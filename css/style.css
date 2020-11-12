@@ -4,6 +4,9 @@
   padding: 0;
 }
 
+body {
+  font-family: sans-serif;
+}
 
 header {
   height: calc(100vh);
@@ -42,8 +45,20 @@ header {
   float: right;
 }
 
+ul.size {
+  font-size: 16px;
+}
+
 li {
   display: inline-block;
+  padding: 0 5px;
+}
+
+.appearance {
+ -webkit-appearance: none;
+ -moz-appearance: none;
+ text-indent: 1px;
+ text-overflow: "";
 }
 
 .stripe {
