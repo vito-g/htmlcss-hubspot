@@ -20,7 +20,7 @@ header {
 .container {
   width: 1200px;
   height: 100%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin: auto;
 }
 
@@ -63,7 +63,6 @@ li {
 
 .stripe {
   margin: auto;
-  background-color: red;
   height: 55px;
   /* border: 1px solid black; */
 }
@@ -84,4 +83,8 @@ select {
 
 .stripe:last-child {
   background-color: rgb(175,235,228);
+}
+
+.logo {
+  padding: 12.4px 0;
 }
