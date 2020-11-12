@@ -30,3 +30,7 @@ header {
 .stripe:first-child {
   background-color: rgb(244,249,253);
 }
+
+.stripe:last-child {
+  background-color: rgb(175,235,228);
+}
