@@ -6,7 +6,7 @@
 
 
 header {
-  height: 100vh;
+  height: calc(100vh);
   /* background-color: orange; */
   background-image: url("../img/jumbotron.png");
   background-size: cover;
@@ -19,4 +19,14 @@ header {
   height: 100%;
   border: 1px solid black;
   margin: auto;
+}
+
+.stripe {
+  margin: auto;
+  height: 55px;
+  /* border: 1px solid black; */
+}
+
+.stripe:first-child {
+  background-color: rgb(244,249,253);
 }
