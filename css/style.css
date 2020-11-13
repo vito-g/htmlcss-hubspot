@@ -19,7 +19,7 @@ header {
 
 main {
   background-color: rgb(244,249,253);
-  height: 200px;
+  /* height: 200px; */
 
 }
 
@@ -162,4 +162,24 @@ header ~ .stripe {
   border: none;
   background-color: rgb(255,122,89);
   color: white;
+}
+
+main .top {
+  padding: 50px 0;
+}
+
+.tx-a {
+  text-align: center;
+}
+
+.fa.fa-cube {
+  font-size: 128px;
+}
+
+h1 {
+  padding: 30px;
+}
+
+main .top p {
+  padding: 0 190px;
 }
