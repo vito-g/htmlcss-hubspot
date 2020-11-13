@@ -59,6 +59,14 @@ li {
   padding: 0 5px;
 }
 
+select {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
 .appearance {
  -webkit-appearance: none;
  -moz-appearance: none;
@@ -107,6 +115,7 @@ select {
 .fa.fa-search {
   padding-left:  20px;
   color: rgb(0, 164, 189);
+  cursor: pointer;
 }
 
 /* .stripe:last-child {
