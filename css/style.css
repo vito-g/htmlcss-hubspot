@@ -17,10 +17,16 @@ header {
   background-position: bottom -110px right 0;
 }
 
+main {
+  background-color: rgb(244,249,253);
+  height: 200px;
+
+}
+
 .container {
   width: 1200px;
   height: 100%;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   margin: auto;
 }
 
@@ -62,7 +68,7 @@ li {
 
 .stripe {
   margin: auto;
-  height: 60px;
+  height: 55px;
   /* border: 1px solid black; */
 }
 
@@ -72,7 +78,7 @@ li {
 }
 
 .line-h{
-  line-height: 60px;
+  line-height: 55px;
 }
 
 .stripe:first-child  button:first-child{
@@ -103,7 +109,13 @@ select {
   color: rgb(0, 164, 189);
 }
 
-.stripe:last-child {
+/* .stripe:last-child {
+  background-color: rgb(175,235,228);
+  border-top: 2px solid rgb(50,73,91);
+  border-bottom: 2px solid rgb(50,73,91);
+} */
+
+header ~ .stripe {
   background-color: rgb(175,235,228);
   border-top: 2px solid rgb(50,73,91);
   border-bottom: 2px solid rgb(50,73,91);
