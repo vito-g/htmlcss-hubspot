@@ -6,6 +6,7 @@
 
 body {
   font-family: sans-serif;
+  color: rgb(51,71,91);
 }
 
 header {
@@ -13,7 +14,7 @@ header {
   background-image: url("../img/jumbotron.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom -110px right 0;
+  background-position: bottom -120px right 0;
 }
 
 .container {
@@ -26,7 +27,6 @@ header {
 .contact {
   border-left: 1px solid black;
   padding-left: 20px;
-  margin-left: 10px;
 }
 
 .clearfix {
@@ -62,16 +62,17 @@ li {
 
 .stripe {
   margin: auto;
-  height: 55px;
+  height: 60px;
   /* border: 1px solid black; */
 }
 
 .stripe:first-child {
   background-color: rgb(244,249,253);
+  border-bottom: 1px solid rgb(50,73,91);
 }
 
 .line-h{
-  line-height: 55px;
+  line-height: 60px;
 }
 
 .stripe:first-child  button:first-child{
@@ -104,6 +105,7 @@ select {
 
 .stripe:last-child {
   background-color: rgb(175,235,228);
+  border-bottom: 2px solid rgb(50,73,91);
 }
 
 .logo {
