@@ -9,8 +9,7 @@ body {
 }
 
 header {
-  height: calc(100vh);
-  /* background-color: orange; */
+  height: 100vh;
   background-image: url("../img/jumbotron.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -99,8 +98,6 @@ select {
   width: 35%;
   font-size:19px;
 }
-
-
 
 .claim p {
   margin-top: 20px;
