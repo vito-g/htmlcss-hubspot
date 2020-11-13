@@ -39,7 +39,6 @@ main {
   content:"";
   display: table;
   clear: both;
-
 }
 
 .fl {
@@ -136,6 +135,7 @@ header ~ .stripe {
 
 .logo img {
   width: 82px;
+  cursor: pointer;
 }
 
 .claim {
@@ -174,12 +174,26 @@ main .top {
 
 .fa.fa-cube {
   font-size: 128px;
+  padding-top: 50px;
 }
 
-h1 {
+h2 {
   padding: 30px;
 }
 
-main .top p {
-  padding: 0 190px;
+main .container div:first-child p {
+  padding: 0 190px 40px 190px;
+  /* background-color: orange; */
 }
+
+/* main .container div:nth-child(2) div:first-child {
+  width: 33.33%;
+  height: 100px;
+  background-color: red;
+}
+
+main .container div:nth-child(2) div:last-child {
+  width: 66.66%;
+  height: 100px;
+  background-color: blue;
+} */
