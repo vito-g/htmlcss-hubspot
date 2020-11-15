@@ -197,3 +197,22 @@ main .container div:nth-child(2) div:last-child {
   height: 100px;
   background-color: blue;
 } */
+
+
+.blank {
+  background-color: black;
+  /* height: 200px; */
+  border-color: 1px solid red;
+}
+
+.blank div:first-child {
+  width: 33.33%;
+  height: 200px;
+  background-color: red;
+}
+
+.blank div:nth-child(2) {
+  width: 66.66%;
+  height: 200px;
+  background-color: blue;
+}
