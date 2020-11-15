@@ -276,7 +276,7 @@ ul.uno li{
   width: 33.33%;
   height: 600px;
   /* background-color: orange; */
-  padding: 30px 25px;
+  /* padding: 30px 25px; */
 }
 
 .three-cols .fl:first-child {
@@ -293,7 +293,7 @@ ul.uno li{
 
 .three-cols .fl .inner {
   background-color:white;
-  padding: 20px;
+  padding: 35px;
   height: 100%;
   width: 100%;
   border-radius: 5px;
