@@ -20,6 +20,7 @@ header {
 main {
   background-color: rgb(244,249,253);
   /* height: 200px; */
+  border: 1px solid green;
 
 }
 
