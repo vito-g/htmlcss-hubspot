@@ -269,3 +269,14 @@ ul.uno li{
   height: 100%;
   width: 100%;
 }
+
+.three-cols .fl .inner .content {
+  height: 60%;
+  background-color: red;
+  border-bottom: 1px solid grey;
+}
+
+.three-cols .fl .inner .pop-feat {
+  height: 40%;
+  background-color: white;
+}
