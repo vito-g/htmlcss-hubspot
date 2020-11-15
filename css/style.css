@@ -477,3 +477,35 @@ main ~ .container .woman {
 main ~ .container .woman img {
   width: 250px;
 }
+
+footer {
+  height: 580px;
+  background-color: rgb(50,73,91);
+}
+
+footer .container {
+  border: 1px solid white;
+  height: 100%;
+}
+
+footer .container .row:first-child {
+  height: 300px;
+  border: 1px solid yellow;
+}
+
+footer .container .row:first-child .fl {
+  height: 100%;
+  border: 1px solid yellow;
+  width: calc(100% / 4);
+  /* padding-left: 50px; */
+}
+
+footer .container .row:nth-child(2) {
+  height: 140px;
+  border: 1px solid yellow;
+}
+
+footer .container .row:nth-child(3) {
+  height: 140px;
+  border: 1px solid yellow;
+}
