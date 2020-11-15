@@ -284,7 +284,7 @@ ul.uno li{
 }
 
 .three-cols .fl:nth-child(2) {
-  padding: 30px 17.5px;
+  padding: 30px 12.5px;
 }
 
 .three-cols .fl:last-child {
@@ -302,7 +302,7 @@ ul.uno li{
 .three-cols .fl .inner .content {
   height: 60%;
   /* background-color: red; */
-  border-bottom: 1px solid grey;
+  border-bottom: 2px solid grey;
 }
 
 
