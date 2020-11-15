@@ -201,6 +201,7 @@ main .container div:nth-child(2) div:last-child {
 
 .blank .fl {
   background-color: white;
+  border-radius: 5px;
 }
 
 .blank .fl:first-child {
@@ -223,7 +224,7 @@ main .container div:nth-child(2) div:last-child {
   padding-bottom: 30px;
 }
 
-.blank .fl:first-child [type="button"] {
+.learn [type="button"]  {
   padding: 20px 34px;
   border-radius: 5px;
   border: none;
@@ -253,6 +254,15 @@ ul.uno li{
 
 .fa.fa-check-circle {
   color: orange;
+}
+
+
+.fa.fa-check-circle {
+  color: rgb(255,122,89);
+}
+
+.blank .fa.fa-check-circle {
+  color: rgb(255,122,89);
   padding: 20px 10px 0 0;
 }
 
@@ -261,22 +271,47 @@ ul.uno li{
   width: 33.33%;
   height: 600px;
   background-color: orange;
-  padding: 30px 50px 30px 50px;
+  padding: 30px 25px;
 }
 
 .three-cols .fl .inner {
-  background-color: black;
+  background-color:white;
+  padding: 20px;
   height: 100%;
   width: 100%;
+  border-radius: 5px;
 }
 
 .three-cols .fl .inner .content {
   height: 60%;
-  background-color: red;
+  /* background-color: red; */
   border-bottom: 1px solid grey;
+}
+
+.three-cols .fl .inner p {
+  /* color: yellow; */
+  padding: 25px 7px;
 }
 
 .three-cols .fl .inner .pop-feat {
   height: 40%;
   background-color: white;
+}
+
+.fa.fa-archive {
+  font-size: 80px;
+  padding-bottom: 20px;
+}
+
+.pop-feat h4 {
+  padding: 40px 0 10px 0;
+}
+
+.pop-feat ul li {
+  text-align: left;
+  display: block;
+  padding: 0;
+}
+.pop-feat .learn [type="button"] {
+  margin-top: 30px;
 }
