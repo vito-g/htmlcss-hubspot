@@ -146,7 +146,7 @@ header ~ .stripe {
   font-size:19px;
 }
 
-.claim p {
+p.get-started {
   margin-top: 20px;
   line-height: 200%;
   font-size:12px;
@@ -180,6 +180,10 @@ main .top {
 
 h2 {
   padding: 30px;
+}
+
+p {
+  line-height: 25px;
 }
 
 main .container div:first-child p {
@@ -374,7 +378,13 @@ ul.uno li{
   border-right: 1px solid white;
 }
 
-.marine-green .counter {
+/* .marine-green .counter {
+  font-size: 40px;
+  margin-top: 15px;
+  font-weight: bold;
+} */
+
+.counter {
   font-size: 40px;
   margin-top: 15px;
   font-weight: bold;
@@ -383,4 +393,74 @@ ul.uno li{
 .marine-green .description {
   font-size: 0.8em;
   margin-top: 12px;
+}
+
+main ~ .container {
+  /* border: 1px solid red; */
+  /* height: 2000px; */
+  /* background-color: yellow; */
+  padding-bottom: 40px;
+}
+
+main ~ .container .fl:first-child {
+  width: 40%;
+  height: 200px;
+  /* border: 1px solid black; */
+  /* font-size: 40px;
+  font-weight: bold; */
+  padding: 40px 200px 0 90px;
+}
+
+main ~ .container .fl:first-child p {
+  margin-top: 25px;
+}
+
+main ~ .container .fl:first-child span {
+  font-weight: bold;
+}
+
+main ~ .container .fl:nth-child(2) {
+  width: 60%;
+  height: 200px;
+  padding-top: 50px;
+  /* border: 1px solid black; */
+}
+
+main ~ .container .fl:last-child {
+  width: 40%;
+  /* height: 200px; */
+  padding-right: 50px;
+  margin-top: 15px;
+  /* border: 1px solid black; */
+}
+
+main ~ .container .fl:last-child h2 {
+  padding-left: 0;
+  padding-right: 50px;
+
+}
+
+main ~ .container  .fl .img {
+  width: 25%;
+  padding-right: 20px;
+  height: 70px;
+  /* border: 1px solid red; */
+  position: relative
+}
+
+main ~ .container  .fl .img img {
+  width: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+main ~ .container .fl:last-child button  {
+  padding: 20px 34px;
+  margin-top: 25px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(255,122,89);
+  color: white;
 }
