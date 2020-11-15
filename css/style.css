@@ -266,12 +266,29 @@ ul.uno li{
   padding: 20px 10px 0 0;
 }
 
+.three-cols .fa.fa-check-circle {
+  color: rgb(255,122,89);
+  padding-right: 15px;
+}
+
 .three-cols .fl {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 33.33%;
-  height: 600px;
-  background-color: orange;
+  /* height: 600px; */
+  /* background-color: orange; */
   padding: 30px 25px;
+}
+
+.three-cols .fl:first-child {
+  padding: 30px 25px 30px 0;
+}
+
+.three-cols .fl:nth-child(2) {
+  padding: 30px 17.5px;
+}
+
+.three-cols .fl:last-child {
+  padding: 30px 0px 30px 25px;
 }
 
 .three-cols .fl .inner {
@@ -288,9 +305,12 @@ ul.uno li{
   border-bottom: 1px solid grey;
 }
 
+
+
 .three-cols .fl .inner p {
   /* color: yellow; */
   padding: 25px 7px;
+  margin-bottom: 30px;
 }
 
 .three-cols .fl .inner .pop-feat {
@@ -298,7 +318,7 @@ ul.uno li{
   background-color: white;
 }
 
-.fa.fa-archive {
+.fa.fa-archive, .fa.fa-suitcase, .fa.fa-desktop {
   font-size: 80px;
   padding-bottom: 20px;
 }
