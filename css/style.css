@@ -256,9 +256,16 @@ ul.uno li{
   padding: 20px 10px 0 0;
 }
 
-.three-cols div {
+.three-cols .fl {
   border: 1px solid black;
   width: 33.33%;
-  height: 750px;
+  height: 600px;
   background-color: orange;
+  padding: 30px 50px 30px 50px;
+}
+
+.three-cols .fl .inner {
+  background-color: black;
+  height: 100%;
+  width: 100%;
 }
