@@ -213,7 +213,7 @@ main .container div:nth-child(2) div:last-child {
 
 .blank .fl:nth-child(2) {
   width: 70%;
-  /* height: 300px; */
+  height: 265.2px;
   /* background-color: yellow; */
   padding: 50px 15px 50px 40px;
 }
@@ -254,4 +254,11 @@ ul.uno li{
 .fa.fa-check-circle {
   color: orange;
   padding: 20px 10px 0 0;
+}
+
+.three-cols div {
+  border: 1px solid black;
+  width: 33.33%;
+  height: 750px;
+  background-color: orange;
 }
