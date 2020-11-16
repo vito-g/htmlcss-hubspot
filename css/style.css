@@ -558,6 +558,10 @@ footer .container .central ul {
   top: 75px;
 }
 
+footer .container .central ul li {
+  cursor: pointer;
+}
+
 footer .container .bottom {
   height: 115px;
   width: 100%;
@@ -621,6 +625,7 @@ footer .icons img{
 
 footer .bottom .legal li {
   padding-top: 14.95px;
+  cursor: pointer;
 }
 
 footer .bottom .legal li:last-child {
