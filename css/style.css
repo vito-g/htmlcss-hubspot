@@ -615,7 +615,8 @@ footer .container .top .icons .fl{
 
 footer .icons img{
   width: 16px;
-  fill: red;
+  /* background-color: red; */
+  cursor: pointer;
 }
 
 footer .bottom .legal li {
