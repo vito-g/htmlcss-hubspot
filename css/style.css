@@ -137,6 +137,7 @@ header ~ .stripe {
 
 .logo {
   padding: 14.095px 0;
+  color: white;
 }
 
 .logo img {
@@ -523,40 +524,50 @@ main ~ .container .woman img {
 footer {
   /* height: 580px; */
   background-color: rgb(50,73,91);
+  color: rgb(202,213,225);
 }
 
 footer .container {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   height: 100%;
 }
 
 footer .container .top {
   height: 350px;
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
 }
 
-footer .container .top .fl {
+footer .container .top>.fl {
   height: 100%;
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   width: calc(100% / 4);
   /* padding-left: 50px; */
   /* padding-top: 25px; */
 }
 
 footer .container .central {
-  height: 140px;
-  border: 1px solid yellow;
+  height: 120px;
+  /* border: 1px solid yellow; */
+  /* color: rgb(202,213,225); */
+  border-bottom: 1px solid rgb(202,213,225);
+}
+
+footer .container .central ul {
+  position: relative;
+  top: 85px;
 }
 
 footer .container .bottom {
-  height: 140px;
-  border: 1px solid yellow;
-  background-color: white;
+  height: 120px;
+  width: 100%;
+  /* border: 1px solid red; */
+  /* background-color: white; */
+  padding-top: 20px;
 }
 
-.top {
-  border: 10px solid red;
-}
+/* .top {
+  border: 5px solid red;
+} */
 
 footer .container .top .fl h4 {
   /* background-color: blue; */
@@ -567,7 +578,7 @@ footer .container .top .fl h4 {
 
 footer .container .top .fl ul.footer {
   /* margin-top: 20px; */
-  color: white;
+  /* color: white; */
   list-style: none;
   line-height: 25px;
 }
@@ -583,4 +594,33 @@ footer button {
   background-color: rgb(218,222,234);
   margin-top: 10px;
   padding: 10px;
+  /* width:172px; */
+}
+
+footer .container .top .button {
+  width: 172px;
+}
+
+footer .container .top .icons {
+  width: 100%;
+  text-align: left;
+  margin-top: 15px;
+  /* background-color: white; */
+}
+
+footer .container .top .icons .fl{
+  width: 20%;
+}
+
+footer .icons img{
+  width: 16px;
+}
+
+footer .bottom .legal li {
+  padding-top: 14.95px;
+}
+
+footer .bottom .legal li:last-child {
+  padding-right: 0;
+  padding-left: 10px;
 }
