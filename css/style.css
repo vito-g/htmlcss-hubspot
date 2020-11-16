@@ -9,6 +9,11 @@ body {
   color: rgb(51,71,91);
 }
 
+p {
+  line-height: 25px;
+  font-size: 16px;
+}
+
 header {
   height: 100vh;
   background-image: url("../img/jumbotron.png");
@@ -142,19 +147,32 @@ header ~ .stripe {
 .claim {
   position: relative;
   top: 50px;
-  width: 35%;
-  font-size:19px;
+  width: 55%;
+  /* font-size: 19px; */
+  padding-right: 100px;
+}
+
+.claim h1 {
+
+  font-size: 50px;
+}
+
+.claim p {
+  /* line-height: 40px; */
 }
 
 p.get-started {
   margin-top: 20px;
-  line-height: 200%;
-  font-size:12px;
-}
-
-.claim p:last-of-type {
+  /* line-height: 200%; */
+  /* font-size:12px; */
   font-size: 10px;
 }
+
+/* .claim p:last-of-type {
+  font-size: 10px;
+  color: orange;
+} */
+
 
 .claim button {
   padding: 20px 34px;
@@ -178,12 +196,12 @@ main .top {
   padding-top: 50px;
 }
 
-h2 {
-  padding: 30px;
+h1 {
+  padding-bottom: 30px;
 }
 
-p {
-  line-height: 25px;
+h2 {
+  padding: 30px;
 }
 
 main .container div:first-child p {
@@ -339,8 +357,12 @@ ul.uno li{
   padding-bottom: 20px;
 }
 
-.pop-feat h4 {
-  padding: 40px 0 10px 0;
+/* .pop-feat h4 {
+  padding: 40px 0 25px;
+} */
+
+h4 {
+  padding: 35px 0 25px;
 }
 
 .pop-feat ul li {
@@ -493,7 +515,7 @@ main ~ .container .woman img {
 }
 
 footer {
-  height: 580px;
+  /* height: 580px; */
   background-color: rgb(50,73,91);
 }
 
@@ -503,7 +525,7 @@ footer .container {
 }
 
 footer .container .top {
-  height: 300px;
+  height: 350px;
   border: 1px solid yellow;
 }
 
@@ -512,7 +534,7 @@ footer .container .top .fl {
   border: 1px solid yellow;
   width: calc(100% / 4);
   /* padding-left: 50px; */
-  padding-top: 25px;
+  /* padding-top: 25px; */
 }
 
 footer .container .central {
@@ -538,7 +560,7 @@ footer .container .top .fl h4 {
 }
 
 footer .container .top .fl ul.footer {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   color: white;
   list-style: none;
   line-height: 25px;
