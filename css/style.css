@@ -430,7 +430,7 @@ main ~ .container>.fl:nth-child(2) {
 main ~ .container>.fl:nth-child(3) {
   width: 40%;
   /* height: 200px; */
-  padding-right: 50px;
+  padding-right: 20px;
   margin-top: 40px;
   /* border: 1px solid black; */
 }
