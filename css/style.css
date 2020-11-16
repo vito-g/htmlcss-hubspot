@@ -487,7 +487,7 @@ main ~.container>.fl:nth-child(3) h2 {
 main ~ .container .fl .img {
   width: 25%;
   padding-right: 20px;
-  height: 70px;
+  height: 50px;
   /* border: 1px solid red; */
   position: relative
 }
