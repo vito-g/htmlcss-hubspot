@@ -546,7 +546,7 @@ footer .container .top>.fl {
 }
 
 footer .container .central {
-  height: 120px;
+  height: 115px;
   /* border: 1px solid yellow; */
   /* color: rgb(202,213,225); */
   border-bottom: 1px solid rgb(202,213,225);
@@ -554,11 +554,11 @@ footer .container .central {
 
 footer .container .central ul {
   position: relative;
-  top: 85px;
+  top: 75px;
 }
 
 footer .container .bottom {
-  height: 120px;
+  height: 115px;
   width: 100%;
   /* border: 1px solid red; */
   /* background-color: white; */
@@ -614,6 +614,7 @@ footer .container .top .icons .fl{
 
 footer .icons img{
   width: 16px;
+  fill: red;
 }
 
 footer .bottom .legal li {
