@@ -25,7 +25,7 @@ header {
 main {
   background-color: rgb(244,249,253);
   /* height: 200px; */
-  border: 1px solid green;
+  /* border: 1px solid green; */
 
 }
 
@@ -226,9 +226,14 @@ main .container div:nth-child(2) div:last-child {
   border-radius: 5px;
 }
 
+.blank h4 {
+  padding-bottom: 0;
+}
+
 .blank .fl:first-child {
   width: 30%;
-  /* height: 300px; */
+  height: 300px;
+
   /* background-color: red; */
   padding: 50px 35px 50px 65px;
 }
@@ -236,7 +241,8 @@ main .container div:nth-child(2) div:last-child {
 
 .blank .fl:nth-child(2) {
   width: 70%;
-  height: 265.2px;
+  height: 300px;
+  /* height: 265.2px; */
   /* background-color: yellow; */
   padding: 50px 15px 50px 40px;
 }
@@ -282,10 +288,6 @@ ul.uno li{
 .fa.fa-check-circle {
   color: rgb(255,122,89);
 }
-
-/* .blank {
-  border: 1px solid red;
-} */
 
 .blank .fa.fa-check-circle {
   color: rgb(255,122,89);
