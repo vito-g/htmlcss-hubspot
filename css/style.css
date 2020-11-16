@@ -407,14 +407,18 @@ h4 {
   border-bottom: 1px solid white;
 }
 
-.grid .fl:nth-child(2) {
-  border-left: 1px solid white;
+.grid .fl:first-child, .grid .fl:nth-child(2), .grid .fl:nth-child(3) {
   border-right: 1px solid white;
 }
 
-.grid .fl:nth-child(3) {
+/* .grid .fl:nth-child(2) {
+  border-left: 1px solid white;
   border-right: 1px solid white;
-}
+} */
+
+/* .grid .fl:nth-child(3) {
+  border-right: 1px solid white;
+} */
 
 /* .marine-green .counter {
   font-size: 40px;
