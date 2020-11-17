@@ -79,7 +79,6 @@ body {
   color: rgb(51,71,91);
 }
 
-
 header {
   height: 100vh;
   background-image: url("../img/jumbotron.png");
@@ -92,12 +91,10 @@ main {
   background-color: rgb(244,249,253);
 }
 
-
 .contact {
   border-left: 1px solid black;
   padding-left: 20px;
 }
-
 
 .appearance {
  -webkit-appearance: none;
@@ -260,7 +257,6 @@ ul.uno li{
   color: orange;
 }
 
-
 .fa.fa-check-circle {
   color: rgb(255,122,89);
 }
@@ -296,7 +292,6 @@ ul.uno li{
   -2px -2px 1px rgba(240, 240, 240, 0.3),
   2px -2px 1px rgba(240, 240, 240, 0.3),
   -2px  2px 1px rgba(240, 240, 240, 0.3);
-
 }
 
 .three-cols .fl .inner {
