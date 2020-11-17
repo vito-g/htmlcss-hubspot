@@ -38,13 +38,17 @@ li  {
   padding: 0 5px;
 }
 
-select {
+.cursorpointer {
   cursor: pointer;
 }
 
-button {
+/* select {
   cursor: pointer;
-}
+} */
+
+/* button {
+  cursor: pointer;
+} */
 
 .stripe {
   margin: auto;
@@ -130,7 +134,6 @@ main {
 .fa.fa-search {
   padding-left:  20px;
   color: rgb(0, 164, 189);
-  cursor: pointer;
 }
 
 header ~ .stripe {
@@ -146,7 +149,7 @@ header ~ .stripe {
 
 .logo img {
   width: 82px;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .claim {
@@ -568,12 +571,12 @@ footer .container .top .icons .fl{
 
 footer .icons img{
   width: 16px;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 footer .bottom .legal li {
   padding-top: 14.95px;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 footer .bottom .legal li:last-child {
