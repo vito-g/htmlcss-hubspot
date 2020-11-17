@@ -353,14 +353,13 @@ h4 {
   padding-bottom: 70px;
   border: 1px solid red;
 } */
+/* Avrei anche potuto "suddividere il main in "row". Ciò mi avrebbe alleggerito i selettori avanzati */
 
 .marine-green .row:first-child {
-  /* border: 1px solid white; */
   margin-top: 50px;
 }
 
 .marine-green .row:last-child>:last-child img{
-  /* border: 1px solid red; */
   padding-top: 10px;
 }
 
