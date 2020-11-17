@@ -13,43 +13,10 @@ p {
   font-size: 16px;
 }
 
-
-
-
-
-/* Class Utilities */
-
-
-
-
-
-body {
-  font-family: sans-serif;
-  color: rgb(51,71,91);
-}
-
-
-header {
-  height: 100vh;
-  background-image: url("../img/jumbotron.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom -110px right 0;
-}
-
-main {
-  background-color: rgb(244,249,253);
-}
-
 .container {
   width: 1200px;
   height: 100%;
   margin: auto;
-}
-
-.contact {
-  border-left: 1px solid black;
-  padding-left: 20px;
 }
 
 .clearfix {
@@ -79,6 +46,58 @@ button {
   cursor: pointer;
 }
 
+.stripe {
+  margin: auto;
+  height: 55px;
+}
+
+.line-h{
+  line-height: 55px;
+}
+
+p.get-started {
+  margin-top: 20px;
+  font-size: 10px;
+}
+
+select {
+  border: 0;
+  background-color: inherit;
+}
+
+
+
+/* Class Utilities */
+
+
+
+
+
+body {
+  font-family: sans-serif;
+  color: rgb(51,71,91);
+}
+
+
+header {
+  height: 100vh;
+  background-image: url("../img/jumbotron.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom -110px right 0;
+}
+
+main {
+  background-color: rgb(244,249,253);
+}
+
+
+.contact {
+  border-left: 1px solid black;
+  padding-left: 20px;
+}
+
+
 .appearance {
  -webkit-appearance: none;
  -moz-appearance: none;
@@ -86,18 +105,9 @@ button {
  text-overflow: "";
 }
 
-.stripe {
-  margin: auto;
-  height: 55px;
-}
-
 .stripe:first-child {
   background-color: rgb(244,249,253);
   border-bottom: 1px solid rgb(50,73,91);
-}
-
-.line-h{
-  line-height: 55px;
 }
 
 .stripe:first-child  button:first-child{
@@ -115,11 +125,6 @@ button {
   background-color: rgb(255,122,89);
   color: white;
   padding: 10px;
-}
-
-select {
-  border: 0;
-  background-color: inherit;
 }
 
 .fa.fa-search {
@@ -158,11 +163,6 @@ header ~ .stripe {
 
 .claim p {
   /* line-height: 40px; */
-}
-
-p.get-started {
-  margin-top: 20px;
-  font-size: 10px;
 }
 
 .claim button {
@@ -215,7 +215,6 @@ main .container div:first-child p {
   padding: 50px 35px 50px 65px;
 }
 
-
 .blank .fl:nth-child(2) {
   width: 70%;
   height: 310px;
@@ -251,6 +250,7 @@ p  ~ hr {
   margin-left: 50px;
   display: inline-block;
 }
+
 ul.uno li{
   padding-left: 0px;
   padding: 0 20px 0 0;
@@ -312,8 +312,6 @@ ul.uno li{
   border-bottom: 2px solid grey;
 }
 
-
-
 .three-cols .fl .inner p {
   padding: 25px 7px;
   margin-bottom: 30px;
@@ -371,6 +369,9 @@ h4 {
 .grid .fl:first-child, .grid .fl:nth-child(2), .grid .fl:nth-child(3) {
   border-right: 1px solid white;
 }
+
+/* In alternativa alle due regole, appena sopra riportate, avrei potuto utilizzare una classe per i bordi */
+
 
 .counter {
   font-size: 40px;
@@ -463,39 +464,75 @@ footer .container {
   height: 100%;
 }
 
+/* In alternativa all'utilizzo della classe top avrei potuto utilizzare una pseudoclasse come scritto appena più in basso */
 footer .container .top {
   height: 350px;
 }
 
+/* footer .container>:first-child {
+  height: 350px;
+} */
+/* A questo punto però, eliminando la classe top, avrei dovuto cambiare tutti gli altri selettori pertinenti al suo div */
 footer .container .top>.fl {
   height: 100%;
   width: calc(100% / 4);
 }
+/* A titolo di esempio avrei riscritto il selettore della regola appena sopra come segue */
+/* footer .container>:first-child>.fl {
+  height: 100%;
+  width: calc(100% / 4);
+} */
 
+/* Stesso discorso per le classi "central" e "bottom" */
 footer .container .central {
   height: 115px;
   border-bottom: 1px solid rgb(202,213,225);
 }
-
+/* Eliminando la classe "central" il selettore della regola appena sopra andrebbe riscritto come qui sotto */
+/* footer .container>:nth-child(2) {
+  height: 115px;
+  border-bottom: 1px solid rgb(202,213,225);
+} */
+/* Proseguendo con l'utilizzo delle pseudoclassi riscriverei il selettore della regola qui sotto come riportato solo più sotto */
 footer .container .central ul {
   position: relative;
   top: 75px;
 }
-
+/* footer .container>:nth-child(2) ul {
+  position: relative;
+  top: 75px;
+} */
+/* Ancora, la seguente diventerebbe----> */
 footer .container .central ul li {
   cursor: pointer;
 }
+/* ---->così: */
+/* footer .container>:nth-child(2) ul li {
+  cursor: pointer;
+} */
 
+/* Ancora, la seguente diventerebbe----> */
 footer .container .bottom {
   height: 115px;
   width: 100%;
   padding-top: 20px;
 }
+/* ---->così: */
+/* footer .container>:last-child {
+  height: 115px;
+  width: 100%;
+  padding-top: 20px;
+} */
 
+/* Ancora, la seguente diventerebbe----> */
 footer .container .top .fl h4 {
   color: white;
 }
-
+/* ---->così: */
+/* footer .container>:first-child .fl h4 {
+  color: white;
+} */
+/* E così via per tutti i selettori che seguono */
 footer .container .top .fl ul.footer {
   list-style: none;
   line-height: 25px;
