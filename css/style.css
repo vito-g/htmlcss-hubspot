@@ -1,18 +1,33 @@
+/* Class Utilities */
+
+
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+p {
+  line-height: 25px;
+  font-size: 16px;
+}
+
+
+
+
+
+/* Class Utilities */
+
+
+
+
+
 body {
   font-family: sans-serif;
   color: rgb(51,71,91);
 }
 
-p {
-  line-height: 25px;
-  font-size: 16px;
-}
 
 header {
   height: 100vh;
@@ -24,15 +39,11 @@ header {
 
 main {
   background-color: rgb(244,249,253);
-  /* height: 200px; */
-  /* border: 1px solid green; */
-
 }
 
 .container {
   width: 1200px;
   height: 100%;
-  /* border: 1px solid black; */
   margin: auto;
 }
 
@@ -54,10 +65,6 @@ main {
 .fr {
   float: right;
 }
-
-/* ul.size {
-  font-size: 16px;
-} */
 
 li  {
   display: inline-block;
@@ -82,7 +89,6 @@ button {
 .stripe {
   margin: auto;
   height: 55px;
-  /* border: 1px solid black; */
 }
 
 .stripe:first-child {
@@ -113,7 +119,6 @@ button {
 
 select {
   border: 0;
-  /* border-right: 1px solid black; */
   background-color: inherit;
 }
 
@@ -122,12 +127,6 @@ select {
   color: rgb(0, 164, 189);
   cursor: pointer;
 }
-
-/* .stripe:last-child {
-  background-color: rgb(175,235,228);
-  border-top: 2px solid rgb(50,73,91);
-  border-bottom: 2px solid rgb(50,73,91);
-} */
 
 header ~ .stripe {
   background-color: rgb(175,235,228);
@@ -149,7 +148,6 @@ header ~ .stripe {
   position: relative;
   top: 50px;
   width: 55%;
-  /* font-size: 19px; */
   padding-right: 100px;
 }
 
@@ -164,16 +162,8 @@ header ~ .stripe {
 
 p.get-started {
   margin-top: 20px;
-  /* line-height: 200%; */
-  /* font-size:12px; */
   font-size: 10px;
 }
-
-/* .claim p:last-of-type {
-  font-size: 10px;
-  color: orange;
-} */
-
 
 .claim button {
   padding: 20px 34px;
@@ -210,18 +200,6 @@ main .container div:first-child p {
   /* background-color: orange; */
 }
 
-/* main .container div:nth-child(2) div:first-child {
-  width: 33.33%;
-  height: 100px;
-  background-color: red;
-}
-
-main .container div:nth-child(2) div:last-child {
-  width: 66.66%;
-  height: 100px;
-  background-color: blue;
-} */
-
 .blank .fl {
   background-color: white;
   border-radius: 5px;
@@ -234,8 +212,6 @@ main .container div:nth-child(2) div:last-child {
 .blank .fl:first-child {
   width: 30%;
   height: 310px;
-
-  /* background-color: red; */
   padding: 50px 35px 50px 65px;
 }
 
@@ -243,8 +219,6 @@ main .container div:nth-child(2) div:last-child {
 .blank .fl:nth-child(2) {
   width: 70%;
   height: 310px;
-  /* height: 265.2px; */
-  /* background-color: yellow; */
   padding: 50px 15px 50px 40px;
 }
 
@@ -302,11 +276,7 @@ ul.uno li{
 }
 
 .three-cols .fl {
-  /* border: 1px solid black; */
   width: 33.33%;
-  /* height: 600px; */
-  /* background-color: orange; */
-  /* padding: 30px 25px; */
 }
 
 .three-cols .fl:first-child {
@@ -339,14 +309,12 @@ ul.uno li{
 
 .three-cols .fl .inner .content {
   height: 60%;
-  /* background-color: red; */
   border-bottom: 2px solid grey;
 }
 
 
 
 .three-cols .fl .inner p {
-  /* color: yellow; */
   padding: 25px 7px;
   margin-bottom: 30px;
 }
@@ -360,10 +328,6 @@ ul.uno li{
   font-size: 80px;
   padding-bottom: 20px;
 }
-
-/* .pop-feat h4 {
-  padding: 40px 0 25px;
-} */
 
 h4 {
   padding: 35px 0 25px;
@@ -381,15 +345,12 @@ h4 {
 
 .marine-green {
   /* height: 700px; */
-  /* background-color: rgb(0,174,179); */
-  /* background: linear-gradient(45deg, #00a4bd, #00bda5); */
   background: linear-gradient(45deg, rgb(0, 164, 189), rgb(0, 189, 165));
   color: white;
   padding-bottom: 70px;
 }
 
 .grid {
-  /* border: 4px solid red; */
   width: 100%;
 }
 
@@ -400,9 +361,7 @@ h4 {
 
 .grid .fl {
   width: 25%;
-  /* height: 200px; */
   padding: 20px 0;
-  /* border: 1px solid black; */
 }
 
 .grid .row:first-child .fl {
@@ -412,21 +371,6 @@ h4 {
 .grid .fl:first-child, .grid .fl:nth-child(2), .grid .fl:nth-child(3) {
   border-right: 1px solid white;
 }
-
-/* .grid .fl:nth-child(2) {
-  border-left: 1px solid white;
-  border-right: 1px solid white;
-} */
-
-/* .grid .fl:nth-child(3) {
-  border-right: 1px solid white;
-} */
-
-/* .marine-green .counter {
-  font-size: 40px;
-  margin-top: 15px;
-  font-weight: bold;
-} */
 
 .counter {
   font-size: 40px;
@@ -440,9 +384,6 @@ h4 {
 }
 
 main ~ .container {
-  /* border: 1px solid red; */
-  /* height: 2000px; */
-  /* background-color: yellow; */
   margin-bottom: 40px;
   position: relative;
 }
@@ -450,9 +391,6 @@ main ~ .container {
 main ~ .container>.fl:first-child {
   width: 40%;
   height: 220px;
-  /* border: 1px solid black; */
-  /* font-size: 40px;
-  font-weight: bold; */
   padding: 40px 200px 0 90px;
 }
 
@@ -468,28 +406,23 @@ main ~ .container>.fl:nth-child(2) {
   width: 60%;
   height: 220px;
   padding-top: 50px;
-  /* border: 1px solid black; */
 }
 
 main ~ .container>.fl:nth-child(3) {
   width: 40%;
-  /* height: 200px; */
   padding-right: 20px;
   margin-top: 40px;
-  /* border: 1px solid black; */
 }
 
 main ~.container>.fl:nth-child(3) h2 {
   padding-left: 0;
   padding-right: 50px;
-
 }
 
 main ~ .container .fl .img {
   width: 25%;
   padding-right: 20px;
   height: 50px;
-  /* border: 1px solid red; */
   position: relative
 }
 
@@ -512,7 +445,6 @@ main ~ .container>.fl:nth-child(3) button  {
 
 main ~ .container .woman {
   margin-top: 40px;
-  /* border: 1px solid green; */
   position: absolute;
   bottom: 20px;
   right: 0;
@@ -523,33 +455,25 @@ main ~ .container .woman img {
 }
 
 footer {
-  /* height: 580px; */
   background-color: rgb(50,73,91);
   color: rgb(202,213,225);
 }
 
 footer .container {
-  /* border: 1px solid white; */
   height: 100%;
 }
 
 footer .container .top {
   height: 350px;
-  /* border: 1px solid yellow; */
 }
 
 footer .container .top>.fl {
   height: 100%;
-  /* border: 1px solid yellow; */
   width: calc(100% / 4);
-  /* padding-left: 50px; */
-  /* padding-top: 25px; */
 }
 
 footer .container .central {
   height: 115px;
-  /* border: 1px solid yellow; */
-  /* color: rgb(202,213,225); */
   border-bottom: 1px solid rgb(202,213,225);
 }
 
@@ -565,25 +489,14 @@ footer .container .central ul li {
 footer .container .bottom {
   height: 115px;
   width: 100%;
-  /* border: 1px solid red; */
-  /* background-color: white; */
   padding-top: 20px;
 }
 
-/* .top {
-  border: 5px solid red;
-} */
-
 footer .container .top .fl h4 {
-  /* background-color: blue; */
-  /* width: 100%;
-  height: 100%; */
   color: white;
 }
 
 footer .container .top .fl ul.footer {
-  /* margin-top: 20px; */
-  /* color: white; */
   list-style: none;
   line-height: 25px;
 }
@@ -599,7 +512,6 @@ footer button {
   background-color: rgb(218,222,234);
   margin-top: 10px;
   padding: 10px;
-  /* width:172px; */
 }
 
 footer .container .top .button {
@@ -610,7 +522,6 @@ footer .container .top .icons {
   width: 100%;
   text-align: left;
   margin-top: 15px;
-  /* background-color: white; */
 }
 
 footer .container .top .icons .fl{
@@ -619,7 +530,6 @@ footer .container .top .icons .fl{
 
 footer .icons img{
   width: 16px;
-  /* background-color: red; */
   cursor: pointer;
 }
 
