@@ -146,23 +146,23 @@ header ~ .stripe {
   /* cursor: pointer; */
 }
 
-.claim {
+#claim {
   position: relative;
   top: 50px;
   width: 55%;
   padding-right: 100px;
 }
 
-.claim h1 {
+#claim h1 {
 
   font-size: 50px;
 }
 
-.claim p {
+#claim p {
   /* line-height: 40px; */
 }
 
-.claim button {
+#claim button {
   padding: 20px 34px;
   margin-top: 25px;
   border-radius: 5px;
