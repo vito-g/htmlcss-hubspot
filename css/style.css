@@ -42,10 +42,6 @@ li  {
   cursor: pointer;
 }
 
-/* select {
-  cursor: pointer;
-} */
-
 /* button {
   cursor: pointer;
 } */
@@ -67,6 +63,7 @@ p.get-started {
 select {
   border: 0;
   background-color: inherit;
+  /* cursor: pointer; */
 }
 
 
@@ -345,10 +342,26 @@ h4 {
 
 
 .marine-green {
-  /* height: 700px; */
   background: linear-gradient(45deg, rgb(0, 164, 189), rgb(0, 189, 165));
   color: white;
   padding-bottom: 70px;
+}
+/* Alternativa eliminando la classe marine-green: */
+/* main>:last-child {
+  background: linear-gradient(45deg, rgb(0, 164, 189), rgb(0, 189, 165));
+  color: white;
+  padding-bottom: 70px;
+  border: 1px solid red;
+} */
+
+.marine-green .row:first-child {
+  /* border: 1px solid white; */
+  margin-top: 50px;
+}
+
+.marine-green .row:last-child>:last-child img{
+  /* border: 1px solid red; */
+  padding-top: 10px;
 }
 
 .grid {
@@ -357,7 +370,6 @@ h4 {
 
 .grid .row {
   width: 100%;
-  margin-top: 50px;
 }
 
 .grid .fl {
@@ -387,6 +399,12 @@ h4 {
   font-size: 0.8em;
   margin-top: 12px;
 }
+/* Alternativa eliminando la classe marine-green */
+/* main>:last-child .description {
+  font-size: 0.8em;
+  margin-top: 12px;
+  background-color: red;
+} */
 
 main ~ .container {
   margin-bottom: 40px;
