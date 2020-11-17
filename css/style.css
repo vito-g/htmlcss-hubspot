@@ -372,12 +372,13 @@ h4 {
 
 /* In alternativa alle due regole, appena sopra riportate, avrei potuto utilizzare una classe per i bordi */
 
-
+/* Class Utility */
 .counter {
   font-size: 40px;
   margin-top: 15px;
   font-weight: bold;
 }
+/* /Class Utility */
 
 .marine-green .description {
   font-size: 0.8em;
@@ -502,7 +503,7 @@ footer .container .central ul {
   position: relative;
   top: 75px;
 } */
-/* Ancora, la seguente diventerebbe----> */
+/* Ancora, la seguente (che cmq avrei potuto evitare utilizzando una class utility) diventerebbe----> */
 footer .container .central ul li {
   cursor: pointer;
 }
